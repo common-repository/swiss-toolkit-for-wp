@@ -1,0 +1,38 @@
+ == Changelog ==
+
+1.2.0 - 18 Augest 2024
+Added: Database Optimization feature.
+
+1.1.0 - 03 June 2024
+Added: integrated SureCart plugin support
+
+ = 1.0.9 =
+Fixed a vulnerability and security issue related to post editing permissions.
+
+= 1.0.8 =
+Fixed a vulnerability and security issue related to unauthorized access.
+
+= 1.0.7 =
+New: WP Admin Login URL Changer
+
+= 1.0.6 =
+Fix: Select2 search option
+
+= 1.0.5 =
+ Fix: svg upload issues 
+ Fix: post duplicator issues
+ 
+ = 1.0.4 =
+ Update: Update Appsero SDK
+ 
+ = 1.0.3 =
+ Resolution: Max Upload File Limitation
+ 
+= 1.0.2 =
+ Fix: fix clickHereLink show hide option
+
+= 1.0.1 =
+ Fix: post type link updated
+
+ = 1.0.0 =
+ The first release was uploaded to the plugin repository.

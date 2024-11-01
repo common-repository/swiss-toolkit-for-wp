@@ -1,0 +1,41 @@
+.swiss-toolkit-optimize-settings {
+    td > label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .swiss-toolkit-optimize-settings-optimization-info {
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+
+.swiss-toolkit-optimize-settings-optimization-run {
+    position: relative;
+    text-align: right;
+
+    .loading-spinner {
+        display: none;
+        position: absolute!important;
+        top: 15px;
+        right: 140px;
+        z-index: 9999;
+    }
+  
+    .loading-spinner::before {
+        content: '';
+        border: 3px solid #c3c4c7;
+        border-top: 3px solid #787c82;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        display: block;
+        animation: spin 1s linear infinite;
+    }
+  
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+}
